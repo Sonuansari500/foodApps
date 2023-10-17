@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,200;1,9..40,500&display=swap');
+:root {
+    --neutral-07:#2C2F24,
+
+  }
+.header__topbar{
+    display: flex;
+   
+    align-items: flex-end;
+    justify-content: space-between;
+    background: #474747;
+    
+}
+.header__topbar img{
+    margin-left: 150px;
+    margin-right: 154px;
+}
+.header__navbar{
+    width: 1080px;
+height: 55px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 85px;
+}
+.header__navbar__brand{
+    display: flex;
+    align-items: center;
+}
+.header__navbar__brand__img{
+
+    width: 182.667px;
+    height: 38.667px;
+    padding: 4px 0px 4.667px 41.333px;
+    
+    color: #474747;
+}
+.header__navbar__brand__menus{
+    display: inline-block;
+  
+}
+.header__navbar__brand__menus a{
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+color: #2C2F24;
+margin: 0 4px;
+text-decoration: none;
+font-family: DM Sans;
+}
+.header__navbar__button{
+    display: inline-flex;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 118px;
+border: 1.5px solid var(--neutral-07, #2C2F24);
+}
